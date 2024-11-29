@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: java-server-deployment
-  namespace: singlebranch  # Specify the namespace here
+  namespace: multibranch  # Specify the namespace here
 spec:
   replicas: 1
   selector:
