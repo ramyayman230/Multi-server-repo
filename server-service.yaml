@@ -5,7 +5,7 @@ metadata:
   namespace: multibranch
 spec:
   selector:
-    app: java-server
+    app: java-server-multi
   ports:
     - protocol: TCP
       port: 8080
