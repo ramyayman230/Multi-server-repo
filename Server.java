@@ -54,8 +54,8 @@ public class Server {
                             stringBuilder.append((int) message.charAt(i));
                         }
                         String output = stringBuilder.toString();
-                        oos.writeObject("Hi Client , the ASCII equivalent for: " + message + " is: " + output);
-                        LOGGER.info("Sent response to client: " + "Hi Client , the ASCII equivalent for: " + message + " is: " + output);
+                        oos.writeObject("Hi Client from main, the ASCII equivalent for: " + message + " is: " + output);
+                        LOGGER.info("Sent response to client from main: " + "Hi Client from main , the ASCII equivalent for: " + message + " is: " + output);
                     }
                 } catch (ClassNotFoundException e) {
                     LOGGER.log(Level.SEVERE, "An error occurred during communication with the client: ", e);
