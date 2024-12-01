@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: java-server-milti
+        app: java-server-multi
     spec:
       containers:
       - name: java-server
